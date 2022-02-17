@@ -62,10 +62,10 @@ function createArray(size = 60) {
     deleteChild();
     array = [];
     for (let i = 0; i < size; i++) {
-        array.push(Math.floor(Math.random() * 250) + 1);
+        array.push(Math.floor(Math.random() * 250) + 2);
     }
 
-    //console.log(array);
+    console.log(array);
 
     //select body div for bars
     const bars = document.querySelector("#bars");
