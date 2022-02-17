@@ -30,6 +30,12 @@ function EnableButtons() {
     document.querySelector("#arr_size").disabled = false;
 }
 
+function waitforme(milisec) {
+    return new Promise(resolve => {
+        setTimeout(() => { resolve('') }, milisec);
+    })
+}
+
 //Size slider 
 let arraySize = document.querySelector('#arr_size');
 
