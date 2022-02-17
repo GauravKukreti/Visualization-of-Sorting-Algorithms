@@ -1,5 +1,5 @@
 # Sorting Visualization
-### This is a project built using HTML, CSS, JavaScript <br/>
+### This is a project built using HTML, CSS, JavaScript.
 
 - Bubble Sort 
 - Selection Sort
